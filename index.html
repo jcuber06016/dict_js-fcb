@@ -13,7 +13,7 @@
         <!-- Defines the URL of an image that will be shown alongside the title and description when your webpage is shared. (thumbnail) -->
         <meta property="og:image" content="[your-deployment-link]/images/story-thumbnail-2048.jpg" />
         <!-- This ensures the image is accessible over a secure connection, which is important for platforms that require HTTPS. -->
-        <meta property="og:image:secure_url" content="https://jcuber06016.github.io/dict_js-fcb" />
+        <meta property="og:image:secure_url" content="[your-deployment-link]" />
         
     <title>2048</title>
     <link rel="stylesheet" href="style.css">
@@ -21,21 +21,27 @@
     <body>
         <div class="container">
         <h1>2048 Game</h1>
+        <h2>Created by: JC</h2>
         <p>Welcome to the 2048 game! Use the arrow keys to move the tiles.</p>
         <script src="game.js"></script>
         <hr>
         <div class ="header-container">
             <div class="score-container">
-                <div class="score-label">Score</div>
-            <div class="score" id="score">0</div>
-        </div>
-    </div>
+                <div class="score-label">Score:
+
+                </div>
+            <div class="score" id="score">0
+
+            </div>
+     </div>
     <div class ="share-button-container">
         <div class = "share-label">Share:</div>
         <div class="share-icons">
             <a href="https://www.facebook.com/sharer/sharer.php?u=https://jcuber06016.github.io/dict_js-fcb" target="_blank">
-                <img src="./images/share_2048-fb.svg" alt="Share on Facebook" class="share-icon">
-    </div>
+                <img src="./images/share_2048-fb.svg" alt="Share on Facebook" class="share-icon"></a>
+        </div>
+           </div>
+        </div>
         <div id="board">
             <!-- <div class="tile x2" data-position="[0, 0]">[r0, c0]</div>
             <div class="tile x4" data-position="[0, 1]">[r0, c1]</div>
@@ -58,8 +64,10 @@
             <div class="tile x32768" data-position="[3, 2]">[r3, c2]</div>
             <div class="tile x65536" data-position="[3, 3]">[r3, c3]</div> -->
         </div>
-</div>
+
+        </div>
+    
+       </div> 
         <script src="logic.js"></script>
     </body>
-
 </html>
