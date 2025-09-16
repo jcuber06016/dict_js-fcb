@@ -170,10 +170,11 @@ p {
 .header-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     max-width: 400px;
     width: 400px;
     margin: 0 auto 20px auto;
+    padding: 0 10px;
 }
 
 .score-container, .share-button-container {
@@ -184,14 +185,16 @@ p {
     font-weight: 600;
     font-size: 14px;
     color: #776e65;
+    min-height: 60px;
+    justify-content: center;
 }
 
 .score-container {
-    text-align: left;
+    text-align: center;
 }
 
 .share-button-container {
-    text-align: right;
+    text-align: center;
 }
 
 #score {
@@ -207,10 +210,11 @@ p {
 }
 
 .share-icon {
-    width: 24px;
-    height: 24px;
-    background-color: #1da1f2;
+    width: 32px;
+    height: 32px;
+    background-color: #bbada0;
     border-radius: 3px;
     margin-top: 5px;
     cursor: pointer;
+    padding: 4px;
 }
